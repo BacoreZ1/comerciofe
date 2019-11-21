@@ -1,3 +1,10 @@
 <h1> {{ contador }} </h1>
 
-<button (click)="aumentar()" >aumentar</button>
+<button mat-raised-button (click)="aumentar()" color="accent">
+    <mat-icon aria-label="label">add</mat-icon>
+    aumentar
+</button>
+<button mat-raised-button (click)="disminuir()" color="primary">
+    <mat-icon aria-label="label">remove</mat-icon>
+    disminuir
+</button>
