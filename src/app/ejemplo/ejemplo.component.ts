@@ -19,4 +19,8 @@ export class EjemploComponent implements OnInit {
     this.contador++
   }
 
+  disminuir() {
+    this.contador--
+  }
+
 }
